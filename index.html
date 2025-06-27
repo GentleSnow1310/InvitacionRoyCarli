@@ -1,37 +1,54 @@
 <!DOCTYPE html>
-<audio id="musica-fondo" src="All of Me - John Legend - Violin and Guitar Cover - Daniel Jang.MP3" autoplay loop controls></audio>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rocío & Carlos - Nuestra Boda</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitación de Boda - Rocío & Carlos</title>
+
+  <!-- Fuente elegante y legible -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora&display=swap" rel="stylesheet">
+
+  <!-- Enlace a tu CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
-<body
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-</head>
-}
-<header>
-  <h1>Rocío & Carlos</h1>
-  <h2>¡Nos casamos!</h2>
-  <p>Febrero 2026</p>
-</header>
+<body>
+  <header>
+    <h1>Rocío & Carlos</h1>
+    <h2>¡Nos casamos!</h2>
+    <p>Febrero 2026</p>
+  </header>
 
-<main>
-  <section>
-    <h3>Estás invitado/a a celebrar con nosotros</h3>
-    <p>Muy pronto te compartiremos el lugar exacto.</p>
-    <p>Mientras tanto, reservá la fecha: Febrero 2026.</p>
-  </section>
+  <main>
+    <section id="historia">
+      <h3>Nuestra Historia</h3>
+      <p>
+        Nos conocimos en el momento más inesperado, y desde entonces no dejamos de soñar juntos. Hoy queremos compartir con vos este gran paso.
+      </p>
+    </section>
 
-  <section>
-    <h3>Confirmación de asistencia</h3>
-    <button onclick="confirmarAsistencia()">Sí</button>
-    <button onclick="confirmarAsistencia()">No</button>
-  </section>
-</main>
+    <section id="lugar">
+      <h3>¿Dónde será?</h3>
+      <p>
+        La ceremonia y fiesta se celebrarán en un lugar mágico que pronto te revelaremos. ¡Reservá la fecha!
+      </p>
+    </section>
 
-<footer>
-  <p>Con amor, Rocío & Carlos</p>
-</footer>
+    <section id="confirmacion">
+      <h3>Confirmación de Asistencia</h3>
+      <button onclick="confirmarAsistencia(true)">Sí, voy</button>
+      <button onclick="confirmarAsistencia(false)">No podré</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Con amor, Rocío & Carlos</p>
+  </footer>
+
+  <!-- Música de fondo -->
+  <audio src="musica-boda.mp3" autoplay loop controls></audio>
+
+  <!-- Enlace a tu JS -->
+  <script src="scripts.js"></script>
+</body>
+</html>
 
