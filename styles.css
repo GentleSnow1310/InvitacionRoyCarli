@@ -1,15 +1,21 @@
 body {
-  background-color: ##264d32; /* verde esmeralda */
-  color: #fffaf0; /* texto claro por defecto (usado solo si hay fondo oscuro) */
+  background-color: #004d4d; /* azul petróleo */
+  color: #d4af37; /* texto dorado */
   font-family: 'Lora', serif;
   margin: 0;
   padding: 20px;
+
+  /* Opcional: fondo decorativo sutil */
+  background-image: url('imagenes/flores.png'); /* si querés dejarlo, si no, borrá esta línea */
+  background-repeat: repeat;
+  background-size: 120px;
+  background-attachment: fixed;
 }
 
 header {
   text-align: center;
   margin-bottom: 30px;
-  color: #fffaf0;
+  color: #d4af37;
 }
 
 h1 {
@@ -24,16 +30,16 @@ h2 {
 }
 
 h3 {
-  color: #2ecc71; /* verde esmeralda sobre fondo hueso */
+  color: #004d4d; /* azul petróleo sobre cuadro claro */
   font-size: 1.5em;
   margin-bottom: 10px;
 }
 
-/* CUADROS/SECCIONES */
+/* CUADROS */
 section {
-  background-color: #fffaf0; /* hueso */
-  color: #2ecc71; /* texto verde esmeralda */
-  border: 2px solid #2ecc71;
+  background-color: #fdf6e3; /* marfil claro */
+  color: #004d4d; /* azul petróleo en los textos internos */
+  border: 2px solid #d4af37;
   border-radius: 10px;
   padding: 20px;
   max-width: 700px;
@@ -43,9 +49,9 @@ section {
 
 /* BOTONES */
 button {
-  background-color: #fffaf0;
-  color: #2ecc71;
-  border: 2px solid #2ecc71;
+  background-color: #fdf6e3;
+  color: #004d4d;
+  border: 2px solid #d4af37;
   padding: 10px 20px;
   margin: 10px;
   border-radius: 6px;
@@ -56,8 +62,18 @@ button {
 }
 
 button:hover {
-  background-color: #2ecc71;
-  color: #fffaf0;
+  background-color: #d4af37;
+  color: #fdf6e3;
+}
+
+/* IMÁGENES EN MARCO */
+.imagen-cuadro {
+  display: block;
+  max-width: 100%;
+  border: 4px solid #d4af37;
+  border-radius: 12px;
+  margin: 15px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
 }
 
 /* PIE DE PÁGINA */
@@ -65,20 +81,10 @@ footer {
   text-align: center;
   margin-top: 40px;
   font-style: italic;
-  color: #fffaf0;
+  color: #d4af37;
 }
 
-/* IMÁGENES EN MARCOS / CUADROS */
-.imagen-cuadro {
-  display: block;
-  max-width: 100%;
-  border: 4px solid #2ecc71;
-  border-radius: 12px;
-  margin: 15px auto;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);/* MÚSICA */
-
-}
-
+/* AUDIO */
 audio {
   display: block;
   margin: 30px auto;
