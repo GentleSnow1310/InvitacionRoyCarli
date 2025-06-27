@@ -1,6 +1,6 @@
 body {
   background-color: #556B2F; /* verde oliva */
-  color: #fffaf0;
+  color: #fffaf0; /* hueso para el texto */
   font-family: 'Lora', serif;
   margin: 0;
   padding: 20px;
@@ -11,43 +11,30 @@ header {
   margin-bottom: 30px;
 }
 
-audio {
-  display: block;
-  margin: 30px auto; 
-}
-  
 h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 3.5em;
-  color: #fffaf0;
+  color: #fffaf0; /* título en hueso */
   margin-bottom: 0;
 }
 
-h2 {
-  font-size: 2em;
-  color: #b4e197; /* verde manzana pastel */
-  margin-top: 0;
-}
-
-h3 {
-  color: #fffaf0;
-  font-size: 1.5em;
-  margin-bottom: 10px;
+h2, h3 {
+  color: #b4e197; /* títulos secundarios en verde manzana pastel */
 }
 
 section {
-  background-color: #ffffff;
+  background-color: rgba(255, 250, 240, 0.1); /* fondo semitransparente */
   border: 2px solid #b4e197;
   border-radius: 10px;
   padding: 20px;
   max-width: 700px;
   margin: 20px auto;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
 button {
   background-color: #b4e197;
-  color: white;
+  color: #556B2F;
   border: none;
   padding: 10px 20px;
   margin: 10px;
@@ -65,7 +52,10 @@ footer {
   text-align: center;
   margin-top: 40px;
   font-style: italic;
-  color: #666;
+  color: #fffaf0;
 }
 
+audio {
+  display: block;
+  margin: 30px auto;
 }
