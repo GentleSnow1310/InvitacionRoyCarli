@@ -1,14 +1,9 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  background: #fff0f5;
-  color: #333;
-  text-align: center;
+  background: #1b1b3a;
+  color: #fff;
 }
 .hero {
-  padding: 100px 20px;
-  background: linear-gradient(to bottom, #ffd1dc, #ffeef0);
-  animation: fadeIn 2s ease-in-out;
+  background: linear-gradient(to bottom, #2c2c54, #595987);
 }
 .date {
   font-size: 1.5rem;
