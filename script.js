@@ -1,6 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const music = document.getElementById("bg-music");
-  document.body.addEventListener("click", () => {
-    music.play();
-  }, { once: true });
-});
+function confirmarAsistencia(asiste) {
+  if (asiste) {
+    alert("¡Gracias por confirmar tu asistencia! 💚");
+  } else {
+    alert("Lamentamos que no puedas venir. Te vamos a extrañar.");
+  }
+}
