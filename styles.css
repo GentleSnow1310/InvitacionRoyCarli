@@ -6,7 +6,6 @@ body {
   padding: 20px;
 
   /* Opcional: fondo decorativo sutil */
-  background-image: url('imagenes/flores.png'); /* si querés dejarlo, si no, borrá esta línea */
   background-repeat: repeat;
   background-size: 120px;
   background-attachment: fixed;
