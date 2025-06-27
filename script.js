@@ -6,6 +6,7 @@ window.addEventListener('load', () => { const intro = document.getElementById('i
 
 // Mostrar burbujas después de pareja setTimeout(() => { burbujas.classList.remove('oculto'); }, 6000); });
 
+-
 function confirmarAsistencia(asiste) {
   if (asiste) {
     alert("¡Gracias por confirmar tu asistencia! 💚");
