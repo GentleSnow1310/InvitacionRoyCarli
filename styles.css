@@ -1,5 +1,5 @@
 body {
-  background-color: #004d4d; /* azul petróleo */
+  background-color: ##00081f; /* azul oscuro */
   color: #d4af37; /* texto dorado */
   font-family: 'Lora', serif;
   margin: 0;
@@ -36,8 +36,8 @@ h3 {
 
 /* CUADROS */
 section {
-  background-color: #fdf6e3; /* marfil claro */
-  color: #004d4d; /* azul petróleo en los textos internos */
+  background-color: #d4af37; /* dorado */
+  color: #d4af37; /* azul petróleo en los textos internos */
   border: 2px solid #d4af37;
   border-radius: 10px;
   padding: 20px;
