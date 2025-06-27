@@ -1,6 +1,6 @@
 body {
-  background-color: #fffaf0; /* fondo hueso */
-  color: #333;
+  background-color: #556B2F; /* fondo hueso */
+  color: #fffaf0;
   font-family: 'Lora', serif;
   margin: 0;
   padding: 20px;
@@ -14,7 +14,7 @@ header {
 h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 3.5em;
-  color: #6a4e3c;
+  color: #fffaf0;
   margin-bottom: 0;
 }
 
@@ -25,7 +25,7 @@ h2 {
 }
 
 h3 {
-  color: #6a4e3c;
+  color: #fffaf0;
   font-size: 1.5em;
   margin-bottom: 10px;
 }
